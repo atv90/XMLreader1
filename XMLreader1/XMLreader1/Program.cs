@@ -33,27 +33,4 @@ namespace XMLreader1
 }
 
 
-////kolmas versio
-//static void Main(string[] args)
-//{
-//    XmlTextReader reader = new XmlTextReader("HaeXml.xml");
-//            while (reader.Read())
-//            {
-//                switch (reader.NodeType)
-//                {
-//                    case XmlNodeType.Element: 
-//                        Console.Write("<" + reader.Name);
-//                        Console.WriteLine(">");
-//                        break;
-//                    case XmlNodeType.Text: 
 
-//    Console.WriteLine(reader.Value);
-//                        break;
-//                    case XmlNodeType.EndElement: 
-//                        Console.Write("</" + reader.Name);
-//                        Console.WriteLine(">");
-//                        break;
-//                }
-//            }
-//            Console.ReadLine(); 
-//    }
